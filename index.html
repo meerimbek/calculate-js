@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- <input id="number1" type="text"> 
+    <input id="number2" type="text"> 
+   
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <span id = "res"> result </span>  -->
+
+<!-- <script>
+       
+        const plus = () => {
+               let num1 = document.getElementById("number1").value
+               let num2 = document.getElementById("number2").value
+               
+               let result = parseInt(num1) + parseInt(num2)
+               
+               
+               document.getElementById("res").innerHTML = `результат: ${result}`
+           }
+        const minus = ()=> {
+            let num1 = document.getElementById("number1").value
+            let num2 = document.getElementById("number2").value
+            let result = parseInt(num1) - parseInt(num2)
+            document.getElementById("res").innerHTML = `результат: ${result}`
+
+    
+        }
+        const multiply= ()=> {
+            let num1 = document.getElementById("number1").value
+            let num2 = document.getElementById("number2").value
+            let result = parseInt(num1) * parseInt(num2)
+            document.getElementById("res").innerHTML = `результат: ${result}`
+        }
+        const divide = ()=> {
+            let num1 = document.getElementById("number1").value
+            let num2 = document.getElementById("number2").value
+            let result = parseInt(num1) / parseInt(num2)
+            document.getElementById("res").innerHTML = `результат: ${result}`
+
+           
+        }
+           
+      </script>     
+
+          -->
+    
+ 
+           <div class= "container">
+           <div class = "input"><form name ="form"><input type = "text" name = "textview"></form></div>
+           <button class= "item-orang "onclick = "clean()">c</button>
+           <button class= "item-orang" onclick = "back()">&larr;</button>
+           <button class= "item-orang"onclick = "insert('+')">+</button>
+           <button class= "item-orang" onclick = "insert('-')">-</button>
+           <button class= "item-orang"onclick = "insert('*')">*</button>
+           <button class= "item-orang" onclick = "insert('/')">/</button>
+           <button class= "item"onclick = "insert('1')">1</button>
+           <button class= "item" onclick = "insert('2')">2</button>
+           <button class= "item"onclick = "insert('3')">3</button>
+           <button class= "item" onclick = "insert('4')">4</button>
+           <button class= "item"onclick = "insert('5')">5</button>
+           <button class= "item"onclick = "insert('6')">6</button>
+           <button class= "item"onclick = "insert('7')">7</button>
+           <button class= "item"onclick = "insert('8')">8</button>
+           <button class= "item"onclick = "insert('9')">9</button>
+           <button class= "item"onclick = "insert('.')">.</button>
+           <button class= "item-zero"onclick = "insert('0')">0</button>
+           <button class= "item egual"onclick = "egual('=')">=</button> 
+        
+       </div>
+       
+    
+
+        
+
+
+
+     
+
+     
+</body>
+</html>
